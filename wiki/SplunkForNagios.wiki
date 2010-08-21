@@ -1,5 +1,5 @@
 #labels Featured
-= SplunkForNagios = 
+= Summary =
 
   * SplunkForNagios allows you to integrate the Open Source monitoring solution "Nagios" with Splunk.
 
@@ -21,7 +21,6 @@
 = Road Map =
   * 1.1
      * Add auto-populating drop-down list of all device names to easily display relevant alert history
-     * Add powerful graphs of metal level metrics (cpu, memory, swap, load, disk usage, network interface utilization, processes, etc) sourced from Nagios Plugin Performance Data
+     * Add powerful graphs of metal level metrics (cpu, memory, swap, load, disk usage, network interface utilization, processes, etc) sourced from Nagios [http://nagios.sourceforge.net/docs/3_0/perfdata.html Plugin Performance Data]
   * 1.2
-     * Add amMAP geo mapping capabilities to create flash maps of activity by IP address
-
+     * Add [http://www.splunkbase.com/apps/All/4.x/Add-On/app:Splunk+for+use+with+amMap+Flash+Maps amMAP] geo mapping capabilities to create flash maps of activity by IP address
