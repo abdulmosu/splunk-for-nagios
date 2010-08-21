@@ -1,9 +1,9 @@
 #labels Featured
-= Summary =
+== Summary ==
 
   * SplunkForNagios allows you to integrate the Open Source monitoring solution "Nagios" with Splunk.
 
-= Introduction =
+== Introduction ==
 
   * Now you can search Nagios alerts and notifications and trend problems over time.
   * The app also allows you to Schedule Saved Searches in Splunk to send alerts to Nagios.
@@ -13,12 +13,12 @@
   * Copyright (c) 2010 Luke Harris. All Rights Reserved.
 
 
-= Download =
+== Download ==
 
   * http://www.splunkbase.com/apps/All/4.x/Add-On/app:SplunkForNagios
 
 
-= Road Map =
+== Road Map ==
   * 1.1
      * Add auto-populating drop-down list of all device names to easily display relevant alert history
      * Add powerful graphs of metal level metrics (cpu, memory, swap, load, disk usage, network interface utilization, processes, etc) sourced from Nagios [http://nagios.sourceforge.net/docs/3_0/perfdata.html Plugin Performance Data]
