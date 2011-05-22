@@ -3,9 +3,8 @@
 
   * Splunk for Nagios allows you to integrate the Open Source monitoring solution "Nagios" with Splunk.
 
-== Introduction ==
+== Features ==
 
-Features: 
   * Schedule Saved Searches in Splunk to send alerts to Nagios 
   * Status Dashboard featuring recent Warning and Critical Alerts and Notifications 
   * Alerts Dashboard with an auto-populating drop-down list of device names to easily display relevant alert history 
@@ -14,7 +13,7 @@ Features:
   * Search Nagios alerts and notifications and trend problems over time 
   * Over 40 field extractions, compliant with the Common Information Model 
   * 6 Saved Searches
-  * This is version 1.1.1 of Splunk For Nagios so any feedback, including requests for enhancement are most welcome. Email: luke@verypowerful.info
+  * This is version 1.1.1 of Splunk For Nagios so any feedback, including requests for enhancement are most welcome. Email: mailto:luke@verypowerful.info
   * This app has been created for the specifics of our Nagios environment (Nagios Core version 3.2.1) and it may or may not suit your specific purposes.
   * Copyright (c) 2011 Luke Harris. All Rights Reserved.
 
