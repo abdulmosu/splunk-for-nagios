@@ -1,5 +1,5 @@
 #labels Featured
-== Summary ==
+== Overview ==
 
   * Splunk for Nagios allows you to integrate the Open Source monitoring solution "Nagios" with Splunk.
 
