@@ -1,16 +1,22 @@
 #labels Featured
 == Summary ==
 
-  * Splunk For Nagios allows you to integrate the Open Source monitoring solution "Nagios" with Splunk.
+  * Splunk for Nagios allows you to integrate the Open Source monitoring solution "Nagios" with Splunk.
 
 == Introduction ==
 
-  * Now you can search Nagios alerts and notifications and trend problems over time.
-  * The app also allows you to Schedule Saved Searches in Splunk to send alerts to Nagios.
-  * Over 40 field extractions are included, as well as 6 Saved Searches, and an Advanced Dashboard featuring recent Warning and Critical Alerts.
-  * This is version 1.0 of Splunk For Nagios so any feedback, including requests for enhancement are most welcome. Email: luke@verypowerful.info
+Features: 
+  * Schedule Saved Searches in Splunk to send alerts to Nagios 
+  * Status Dashboard featuring recent Warning and Critical Alerts and Notifications 
+  * Alerts Dashboard with an auto-populating drop-down list of device names to easily display relevant alert history 
+  * Host Dashboards with Graphs of metal level metrics (CPU, Memory, Swap, Load, Disk Usage, Network Interface Utilization, Processes, etc) sourced from Nagios Plugin Performance Data (Linux, AIX and Windows hosts supported) 
+  * NAS Dashboards with Graphs of Storage Usage, Quota Usage, SAVVOL Usage, Connections by Protocol, etc (EMC Isilon and Celerra supported) 
+  * Search Nagios alerts and notifications and trend problems over time 
+  * Over 40 field extractions, compliant with the Common Information Model 
+  * 6 Saved Searches
+  * This is version 1.1.1 of Splunk For Nagios so any feedback, including requests for enhancement are most welcome. Email: luke@verypowerful.info
   * This app has been created for the specifics of our Nagios environment (Nagios Core version 3.2.1) and it may or may not suit your specific purposes.
-  * Copyright (c) 2010 Luke Harris. All Rights Reserved.
+  * Copyright (c) 2011 Luke Harris. All Rights Reserved.
 
 
 == Download ==
@@ -19,8 +25,7 @@
 
 
 == Road Map ==
-  * 1.1
-     * Add auto-populating drop-down list of all device names to easily display relevant alert history
-     * Add powerful graphs of metal level metrics (cpu, memory, swap, load, disk usage, network interface utilization, processes, etc) sourced from Nagios [http://nagios.sourceforge.net/docs/3_0/perfdata.html Plugin Performance Data]
   * 1.2
      * Add [http://www.splunkbase.com/apps/All/4.x/Add-On/app:Splunk+for+use+with+amMap+Flash+Maps amMAP] geo mapping capabilities to create flash maps of activity by IP address
+  * 2.0
+     * Add scripted input for Real Time Dashboards
